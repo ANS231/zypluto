@@ -1,0 +1,458 @@
+/* ===============================
+   PREMIUM FOOTER
+================================ */
+
+.footer{
+  background:
+    linear-gradient(
+      135deg,
+      #a3c4f4,
+      #f5f9ff
+    );
+
+  color:#111827;
+
+  padding:70px 60px 20px;
+
+  margin-top:40px;
+
+  position:relative;
+
+  overflow:hidden;
+
+  font-family:"Inter",sans-serif;
+
+  border-top:
+    1px solid rgba(0,27,77,.06);
+}
+
+/* ===============================
+   SLANT DESIGN
+================================ */
+
+.footer::after{
+  content:"";
+
+  position:absolute;
+
+  top:-60px;
+
+  left:-5%;
+
+  width:110%;
+
+  height:110px;
+
+  background:#ffffff;
+
+  transform:rotate(-2deg);
+
+  transform-origin:left top;
+
+  z-index:1;
+}
+
+/* ===============================
+   PREMIUM GLOW
+================================ */
+
+.footer::before{
+  content:"";
+
+  position:absolute;
+
+  inset:0;
+
+  background:
+    radial-gradient(
+      circle at top right,
+      rgba(10,108,255,.08),
+      transparent 30%
+    ),
+    radial-gradient(
+      circle at bottom left,
+      rgba(56,182,255,.06),
+      transparent 35%
+    );
+
+  pointer-events:none;
+
+  z-index:0;
+}
+
+/* ===============================
+   CONTAINER
+================================ */
+
+.footer-container{
+  position:relative;
+
+  z-index:2;
+
+  max-width:1300px;
+
+  margin:auto;
+
+  display:flex;
+
+  justify-content:space-between;
+
+  align-items:flex-start;
+
+  gap:80px;
+}
+
+/* ===============================
+   BRAND
+================================ */
+
+.footer-brand{
+  flex:1;
+
+  max-width:560px;
+}
+
+/* ===============================
+   LOGO WRAPPER
+================================ */
+
+.footer-logo-wrapper{
+  display:flex;
+
+  align-items:center;
+
+  gap:16px;
+
+  margin-bottom:22px;
+
+  cursor:pointer;
+
+  width:fit-content;
+
+  transition:0.3s ease;
+}
+
+.footer-logo-wrapper:hover{
+  transform:translateY(-2px);
+}
+
+/* ===============================
+   LOGO IMAGE
+================================ */
+
+.footer-logo-img{
+  width:85px;
+
+  height:auto;
+
+  object-fit:contain;
+
+  background:transparent;
+
+  padding:0;
+
+  border-radius:0;
+
+  box-shadow:none;
+
+  display:block;
+}
+
+/* ===============================
+   LOGO TEXT
+================================ */
+
+.footer-logo{
+  font-size:38px;
+
+  font-weight:900;
+
+  letter-spacing:-1px;
+
+  color:#000000;
+
+  margin:0;
+
+  line-height:1;
+}
+
+/* .Expert */
+
+.footer-logo span{
+  color:#0A6CFF;
+}
+
+/* ===============================
+   DESCRIPTION
+================================ */
+
+.footer-brand p{
+  font-size:15px;
+
+  line-height:1.9;
+
+  color:#000000;
+
+  font-weight:600;
+}
+
+/* ===============================
+   COMPANY DETAILS
+================================ */
+
+.footer-company-details{
+  margin-top:24px;
+
+  display:flex;
+
+  flex-direction:column;
+
+  gap:10px;
+}
+
+.footer-company-details p{
+  font-size:14px;
+
+  line-height:1.7;
+
+  color:#000000;
+
+  font-weight:700;
+}
+
+/* ===============================
+   RIGHT SIDE
+================================ */
+
+.footer-right{
+  flex:1;
+
+  display:flex;
+
+  justify-content:flex-end;
+}
+
+.footer-right-container{
+  width:100%;
+}
+
+/* ===============================
+   GRID
+================================ */
+
+.footer-grid{
+  display:grid;
+
+  grid-template-columns:
+    repeat(2,1fr);
+
+  gap:70px;
+}
+
+/* ===============================
+   COLUMN
+================================ */
+
+.footer-col h4{
+  font-size:20px;
+
+  font-weight:900;
+
+  margin-bottom:20px;
+
+  color:#000000;
+
+  position:relative;
+}
+
+.footer-col h4::after{
+  content:"";
+
+  position:absolute;
+
+  left:0;
+
+  bottom:-8px;
+
+  width:42px;
+
+  height:3px;
+
+  border-radius:10px;
+
+  background:#0A6CFF;
+}
+
+.footer-col p{
+  font-size:15px;
+
+  color:#000000;
+
+  margin-bottom:14px;
+
+  line-height:1.7;
+
+  cursor:pointer;
+
+  transition:.25s ease;
+
+  font-weight:700;
+}
+
+.footer-col p:hover{
+  color:#0A6CFF;
+
+  transform:translateX(5px);
+}
+
+/* ===============================
+   HELP BOX
+================================ */
+
+.footer-help-box{
+  margin-top:28px;
+
+  padding:22px;
+
+  background:
+    rgba(255,255,255,0.72);
+
+  backdrop-filter:blur(10px);
+
+  border:
+    1px solid rgba(10,108,255,.12);
+
+  border-radius:22px;
+
+  box-shadow:
+    0 10px 30px rgba(10,108,255,.08);
+}
+
+.footer-help-box h5{
+  margin:0 0 14px;
+
+  font-size:18px;
+
+  font-weight:900;
+
+  color:#000000;
+}
+
+.footer-help-box p{
+  margin-bottom:10px;
+
+  font-size:15px;
+
+  font-weight:800;
+
+  color:#0A6CFF;
+
+  cursor:default;
+}
+
+.footer-help-box p:hover{
+  transform:none;
+
+  color:#0A6CFF;
+}
+
+/* ===============================
+   BOTTOM
+================================ */
+
+.footer-bottom{
+  position:relative;
+
+  z-index:2;
+
+  max-width:1300px;
+
+  margin:45px auto 0;
+
+  padding-top:18px;
+
+  border-top:
+    1px solid rgba(0,27,77,.12);
+
+  text-align:center;
+
+  font-size:13px;
+
+  color:#000000;
+
+  font-weight:800;
+
+  letter-spacing:.3px;
+}
+
+/* ===============================
+   RESPONSIVE
+================================ */
+
+@media(max-width:1000px){
+
+  .footer{
+    padding:60px 25px 20px;
+  }
+
+  .footer-container{
+    flex-direction:column;
+
+    gap:45px;
+  }
+
+  .footer-right{
+    justify-content:flex-start;
+
+    width:100%;
+  }
+
+  .footer-grid{
+    width:100%;
+
+    gap:35px;
+  }
+}
+
+@media(max-width:700px){
+
+  .footer{
+    padding:55px 20px 20px;
+  }
+
+  .footer-logo{
+    font-size:30px;
+  }
+
+  .footer-logo-img{
+    width:68px;
+  }
+
+  .footer-grid{
+    grid-template-columns:1fr;
+
+    gap:30px;
+  }
+
+  .footer-col h4{
+    margin-bottom:14px;
+  }
+
+  .footer-col p:hover{
+    transform:none;
+  }
+
+  .footer-help-box{
+    padding:18px;
+  }
+
+  .footer-help-box h5{
+    font-size:16px;
+  }
+
+  .footer-bottom{
+    margin-top:35px;
+
+    font-size:12px;
+  }
+}
