@@ -1,0 +1,86 @@
+/* PAGE */
+
+.usage-page{
+  max-width:1000px;
+  margin:auto;
+  padding:40px 20px 80px;
+}
+
+/* TITLE */
+
+.usage-title{
+  font-size:28px;
+  font-weight:700;
+  margin-bottom:30px;
+}
+
+/* CARD */
+
+.usage-card{
+  background:white;
+  border-radius:12px;
+  padding:30px;
+  box-shadow:0 8px 25px rgba(0,0,0,0.08);
+  border:1px solid #eee;
+}
+
+/* ITEMS */
+
+.usage-item{
+  margin-bottom:25px;
+}
+
+.usage-label{
+  font-weight:600;
+  margin-bottom:8px;
+}
+
+/* PROGRESS BAR */
+
+.progress-container{
+  width:100%;
+  height:10px;
+  background:#eee;
+  border-radius:6px;
+  overflow:hidden;
+}
+
+.progress-fill{
+  height:100%;
+  background:linear-gradient(90deg,#22c55e,#16a34a);
+  transition:width .4s ease;
+}
+
+/* ADDON BUTTON */
+
+.addon-btn{
+  margin-top:20px;
+  padding:12px 18px;
+  background:#f59e0b;
+  border:none;
+  border-radius:8px;
+  color:white;
+  font-weight:600;
+  cursor:pointer;
+}
+
+.addon-btn:hover{
+  background:#d97706;
+}
+
+/* EXPIRED */
+
+.usage-expired{
+  padding:30px;
+  border-radius:10px;
+  background:#fee2e2;
+  color:#991b1b;
+}
+
+/* LOADING */
+
+.usage-loading{
+  padding:80px;
+  text-align:center;
+  font-size:18px;
+}
